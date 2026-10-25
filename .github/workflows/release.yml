@@ -1,0 +1,35 @@
+# Builds the mod and publishes the .jar to GitHub Releases
+# whenever a version tag like v1.0.0 is pushed.
+
+name: release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: gradle/actions/wrapper-validation@v6
+      - uses: actions/setup-java@v5
+        with:
+          java-version: '25'
+          distribution: 'microsoft'
+      - run: chmod +x ./gradlew
+      - run: ./gradlew build
+      - name: publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Psycho Villagers ${{ github.ref_name }} (Fabric 26.3)
+          body: |
+            Hidden psychos among villagers. Fabric mod for Minecraft 26.3.
+
+            **Requirements:** Fabric Loader 0.20.1+, Fabric API 0.165.0+26.3, Java 25.
+            Put the `.jar` into your `mods/` folder.
+          files: build/libs/psychovillagers-fabric-*.jar
+          fail_on_unmatched_files: true
