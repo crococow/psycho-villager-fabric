@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "psychovillagers",
+	"version": "${version}",
+	"name": "Psycho Villagers (Fabric)",
+	"description": "Some villagers are hidden psychos who hunt vulnerable targets at night. Craft a Detective's Notebook and question villagers to find clues.",
+	"authors": ["Vladislav Korobov"],
+	"license": "MIT",
+	"icon": "assets/psychovillagers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.vladk.psychovillagers.PsychoVillagers"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

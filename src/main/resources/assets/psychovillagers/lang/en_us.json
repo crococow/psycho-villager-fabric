@@ -1,0 +1,20 @@
+{
+  "item.psychovillagers.notebook": "Detective's Notebook",
+  "psychovillagers.notebook.header": "[Notebook]",
+  "psychovillagers.clue.blood": "%s has dried blood on their sleeves. This one has killed before.",
+  "psychovillagers.clue.suspicious.0": "%s keeps their hands hidden behind their back.",
+  "psychovillagers.clue.suspicious.1": "%s won't look you in the eye.",
+  "psychovillagers.clue.suspicious.2": "There is dark grime under %s's fingernails. Dirt... or something else?",
+  "psychovillagers.clue.suspicious.3": "%s's bed looks untouched. They don't seem to sleep at night.",
+  "psychovillagers.clue.suspicious.4": "%s smells faintly of iron.",
+  "psychovillagers.clue.suspicious.5": "%s smiles a little too long after you stop talking.",
+  "psychovillagers.clue.innocent.0": "%s looks tired, but calm.",
+  "psychovillagers.clue.innocent.1": "%s happily chats about the weather.",
+  "psychovillagers.clue.innocent.2": "%s waves and goes back to work.",
+  "psychovillagers.clue.innocent.3": "%s is complaining about the price of emeralds.",
+  "psychovillagers.clue.innocent.4": "Nothing unusual about %s.",
+  "psychovillagers.clue.innocent.5": "%s seems nervous, but only about the zombies.",
+  "psychovillagers.command.spawned": "A psycho villager has joined the village...",
+  "psychovillagers.command.revealed": "Revealed %s psycho(s) nearby.",
+  "psychovillagers.command.reloaded": "Psycho Villagers config reloaded."
+}

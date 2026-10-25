@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:ink_sac",
+    "minecraft:spider_eye"
+  ],
+  "result": {
+    "id": "psychovillagers:notebook"
+  }
+}

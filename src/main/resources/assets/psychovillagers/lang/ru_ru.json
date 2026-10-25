@@ -1,0 +1,20 @@
+{
+  "item.psychovillagers.notebook": "Блокнот детектива",
+  "psychovillagers.notebook.header": "[Блокнот]",
+  "psychovillagers.clue.blood": "На рукавах у %s засохшая кровь. Этот уже убивал.",
+  "psychovillagers.clue.suspicious.0": "%s прячет руки за спиной.",
+  "psychovillagers.clue.suspicious.1": "%s избегает смотреть в глаза.",
+  "psychovillagers.clue.suspicious.2": "Под ногтями у %s тёмная грязь. Грязь... или что-то другое?",
+  "psychovillagers.clue.suspicious.3": "Кровать %s не смята. Похоже, по ночам он не спит.",
+  "psychovillagers.clue.suspicious.4": "От %s слегка пахнет железом.",
+  "psychovillagers.clue.suspicious.5": "%s улыбается чуть дольше, чем нужно.",
+  "psychovillagers.clue.innocent.0": "%s выглядит уставшим, но спокойным.",
+  "psychovillagers.clue.innocent.1": "%s охотно болтает о погоде.",
+  "psychovillagers.clue.innocent.2": "%s машет рукой и возвращается к работе.",
+  "psychovillagers.clue.innocent.3": "%s жалуется на цены на изумруды.",
+  "psychovillagers.clue.innocent.4": "В поведении %s нет ничего странного.",
+  "psychovillagers.clue.innocent.5": "%s нервничает, но только из-за зомби.",
+  "psychovillagers.command.spawned": "В деревне появился новый житель... странный.",
+  "psychovillagers.command.revealed": "Найдено маньяков поблизости: %s.",
+  "psychovillagers.command.reloaded": "Конфиг Psycho Villagers перезагружен."
+}
